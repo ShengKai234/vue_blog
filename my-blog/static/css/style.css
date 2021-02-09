@@ -1,6 +1,45 @@
-.menu .link{
-    width: 100%;
-    position: absolute;
+.header {
+    color: #FFFFFF;
+    background-color: #2F3337;
+    padding: 1%;
+}
+
+.footer {
+    color: #FFFFFF;
+    background-color: #2F3337;
+    position: fixed;
     left: 0;
     bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a{
+    color: #FFFFFF;
+}
+
+.aside {
+    height: 100%;
+    float: right; 
+    width: 20%; 
+    background-color: #63808F;
+    color: white; 
+    padding: 5px; 
+    margin: 5px; 
+    position:fixed;
+    left:80%;
+}
+  
+.container-grid {
+    width: 100%; 
+    float: left; 
+    padding: 50px; 
+    text-align: left; 
+}
+
+.container-grid div li div{
+    width: 100%; 
+    float: left; 
+    margin-left: 30px; 
+    text-align: left; 
 }

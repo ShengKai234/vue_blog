@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <mdb-footer color="stylish-color-dark" class="page-footer font-small pt-4 mt-4">
+  <!-- <mdb-footer color="stylish-color-dark" class="page-footer font-small pt-4 mt-4">
     <mdb-container class="text-left">
       <mdb-row>
         <mdb-col md="6">
@@ -55,8 +55,11 @@
         &copy; 2020 <a href="https://www.kai_234.com"> Kai Personal Blog</a>
       </mdb-container>
     </div>
-  </mdb-footer>
+  </mdb-footer> -->
   <!-- Footer -->
+    <footer class="footer">
+        &copy; 2020 <a href="https://www.kai_234.com"> Kai Personal Blog</a>
+    </footer>
 </template>
 
 <script>

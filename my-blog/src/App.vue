@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <app-menu></app-menu>
     <router-view></router-view>
     <app-foolter></app-foolter>
   </div>
@@ -10,14 +9,12 @@
 <script>
 import Header from './components/include/header'
 import Footer from './components/include/footer'
-import Menu from './components/include/menu'
 
 export default {
   name: 'App',
   components: {
     'app-header': Header,
-    'app-foolter': Footer,
-    'app-menu': Menu
+    'app-foolter': Footer
   }
 }
 </script>
@@ -32,6 +29,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 .card {
   vertical-align: middle;

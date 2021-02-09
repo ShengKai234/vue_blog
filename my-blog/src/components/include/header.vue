@@ -1,6 +1,6 @@
 <template>
   <!-- <mdb-navbar expand="large" position="top" dark color="stylish"> -->
-  <mdb-navbar expand="large" dark color="stylish">
+  <!-- <mdb-navbar expand="large" dark color="stylish">
     <mdb-navbar-brand href="#">
       Kai's Blog
     </mdb-navbar-brand>
@@ -19,7 +19,8 @@
         </mdb-dropdown>
       </mdb-navbar-nav>
     </mdb-navbar-toggler>
-  </mdb-navbar>
+  </mdb-navbar> -->
+  <header class="header">Kai's BLOG</header>
 </template>
 
 <script>
